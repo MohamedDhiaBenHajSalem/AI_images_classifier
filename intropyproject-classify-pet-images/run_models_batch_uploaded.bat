@@ -11,6 +11,6 @@ REM
 REM Usage: run_models_batch_uploaded.bat  -- will run program from commandline on Window OS
 REM 
 @echo on
-python check_images.py --dir uploaded_images/ --arch resnet  --dogfile dognames.txt > resnet_uploaded-images.txt
-python check_images.py --dir uploaded_images/ --arch alexnet --dogfile dognames.txt > alexnet_uploaded-images.txt
-python check_images.py --dir uploaded_images/ --arch vgg  --dogfile dognames.txt > vgg_uploaded-images.txt
+python intropyproject-classify-pet-images/check_images.py --dir intropyproject-classify-pet-images/uploaded_images/ --arch resnet  --dogfile intropyproject-classify-pet-images/dognames.txt > intropyproject-classify-pet-images/resnet_uploaded-images.txt
+python intropyproject-classify-pet-images/check_images.py --dir intropyproject-classify-pet-images/uploaded_images/ --arch alexnet --dogfile intropyproject-classify-pet-images/dognames.txt > intropyproject-classify-pet-images/alexnet_uploaded-images.txt
+python intropyproject-classify-pet-images/check_images.py --dir intropyproject-classify-pet-images/uploaded_images/ --arch vgg  --dogfile intropyproject-classify-pet-images/dognames.txt > intropyproject-classify-pet-images/vgg_uploaded-images.txt

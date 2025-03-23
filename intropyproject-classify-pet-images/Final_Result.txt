@@ -1,0 +1,19 @@
+
+N Images   :  40
+N Dog Images :  12
+N Not-Dog Images: 28
+ 
+Resnet:
+pct_correct_dogs = 100.0
+pct_correct_notdogs = 100.0
+pct_correct_breed = 91.66666666666666
+
+Alexnet: 
+pct_correct_dogs = 100.0
+pct_correct_notdogs = 100.0
+pct_correct_breed = 83.33333333333334
+
+Vgg:
+pct_correct_dogs = 100.0
+pct_correct_notdogs = 100.0
+pct_correct_breed = 91.66666666666666
